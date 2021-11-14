@@ -3,7 +3,7 @@ import config
 
 from discord.ext import commands
 
-bot = commands.Bot(command_prefix = commands.when_mentioned_or(config.prefix), intents = discord.Intents.all(), help_command = None)
+bot = commands.Bot(command_prefix = commands.when_mentioned_or(config.prefix), help_command = None)
 
 @bot.event
 async def on_ready():
