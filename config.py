@@ -1,3 +1,2 @@
-token = 'TOKEN'
-
-prefix = '!'
+TOKEN = 'YOUR OWN BOT TOKEN'
+PREFIX = '!'
